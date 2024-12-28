@@ -6,10 +6,7 @@ layout: home
 title: "DOCS"
 ---
 ### Docs
-
-- sd
-- sa
-- asa
+ 
 
 <ul>
   {% for post in site.posts %}
