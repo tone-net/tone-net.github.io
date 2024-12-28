@@ -16,3 +16,16 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2024-12-28 09:04:20 +0300
+categories: jekyll update
+---
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
